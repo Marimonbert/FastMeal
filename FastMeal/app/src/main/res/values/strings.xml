@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Fast Meal</string>
+    <string name="title_activity_tela_inicial">TelaInicial</string>
+    <string name="title_activity_tela_iniciall">TelaIniciall</string>
+    <string name="title_activity_pagina_inicial">PaginaInicial</string>
+    <string name="title_activity_mesas">mesas</string>
+    <string name="title_activity_mesa">mesa</string>
+    <string name="title_activity_cardapio">Cardapio</string>
+    <string name="title_activity_cardapios">cardapios</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_categorias">Categorias</string>
+    <string name="title_activity_comidas">Comidas</string>
+    <string name="title_activity_petiscos">Petiscos</string>
+    <string name="title_activity_sobremesas">Sobremesas</string>
+    <string name="title_activity_bebidas">Bebidas</string>
+    <string name="title_activity_sanduiches">Sanduiches</string>
+    <string name="title_activity_pizzas">Pizzas</string>
+</resources>

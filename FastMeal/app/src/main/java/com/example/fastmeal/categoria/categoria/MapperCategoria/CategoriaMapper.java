@@ -13,7 +13,10 @@ public class CategoriaMapper {
 
         for (CategoriaResponse categoriaResponse : listarCategoriaResponse) {
 
-            final categoria categoria = new categoria(categoriaResponse.getNome(),categoriaResponse.getFoto(),categoriaResponse.getId());
+            final categoria categoria = new categoria(
+                    categoriaResponse.getNome(),
+                    categoriaResponse.getFoto(),
+                    categoriaResponse.getId());
 
             listaCategoria.add(categoria);
         }

@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.example.fastmeal.R;
 import com.example.fastmeal.cardapio.GuiaCardapio.cardapio;
 import com.example.fastmeal.categoria.categoria.GuiaCategoria.categoria;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -80,6 +81,11 @@ public class ListaCategoriaAdapter extends RecyclerView.Adapter<ListaCategoriaAd
             this.categorias = categorias;
 
             Txt_nome.setText(categorias.getNome());
+
+
+            Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + categorias.getFoto())
+                    .into(foto);
+
 
         }
     }

@@ -10,7 +10,9 @@ public class categoria implements Serializable {
 
     private String foto;
 
-    public categoria(String nome, String id, String foto) {
+    public categoria(String nome,
+                     String foto,
+                     String id) {
         this.nome = nome;
         this.id=id;
         this.foto = foto;

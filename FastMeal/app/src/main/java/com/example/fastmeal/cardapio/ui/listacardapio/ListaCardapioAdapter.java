@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.example.fastmeal.R;
 import com.example.fastmeal.cardapio.ResponseCardapio.CardapioResponse;
 import com.example.fastmeal.cardapio.GuiaCardapio.cardapio;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -73,6 +74,9 @@ public class ListaCardapioAdapter extends RecyclerView.Adapter<ListaCardapioAdap
             txt_descricao.setText(cardapio.getDescricao());
                 txt_id.setText(cardapio.getId());
             txt_valor.setText(cardapio.getValor());
+
+            Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + cardapio.getFoto())
+                    .into(foto);
 
 
 

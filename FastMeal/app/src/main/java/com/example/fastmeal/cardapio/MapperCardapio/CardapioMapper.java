@@ -14,9 +14,13 @@ public class CardapioMapper extends ListaCardapioActivity {
 
         for (CardapioResponse cardapioResponse : listarCardapioResponse) {
 
-            final cardapio cardapio = new cardapio(cardapioResponse.getId(),cardapioResponse.getNome(),
-                    cardapioResponse.getDescricao(),cardapioResponse.getValor(),
-                    cardapioResponse.getFoto(),cardapioResponse.getIdCategoria());// recebe da api o id da categoria
+            final cardapio cardapio = new cardapio(
+                    cardapioResponse.getId(),
+                    cardapioResponse.getNome(),
+                    cardapioResponse.getDescricao(),
+                    cardapioResponse.getValor(),
+                    cardapioResponse.getFoto(),
+                    cardapioResponse.getIdCategoria());// recebe da api o id da categoria
 
             listaCardapio.add(cardapio);
         }

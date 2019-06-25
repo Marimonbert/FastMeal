@@ -3,7 +3,7 @@ package com.example.fastmeal.cardapio.GuiaCardapio;
 import java.io.Serializable;
 
 public class cardapio implements Serializable {
-    private static String nome;
+    private String nome;
 
     private String id;
 
@@ -18,7 +18,12 @@ public class cardapio implements Serializable {
     private String idCategoria;
 
 
-    public cardapio(String id, String nome, String descricao, String valor, String foto, String idCategoria) {
+    public cardapio(String id,
+                    String nome,
+                    String descricao,
+                    String valor,
+                    String foto,
+                    String idCategoria) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -30,7 +35,7 @@ public class cardapio implements Serializable {
         return id;
     }
 
-    public static String getNome() {
+    public String getNome() {
         return nome;
     }
 

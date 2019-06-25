@@ -16,6 +16,8 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <activity android:name=".mesas.ui.listamesas.ListaMesasActivity"/>
+
         <activity android:name=".categoria.categoria.ui.categoria.ListaCategoriaActivity"/>
 
         <activity android:name=".cardapio.ui.listacardapio.ListaCardapioActivity"/>

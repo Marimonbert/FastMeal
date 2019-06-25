@@ -28,10 +28,10 @@
         android:textColor="@android:color/background_dark"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/ChamarGarçom"
+        app:layout_constraintEnd_toEndOf="@+id/ChamarGarcom"
         app:layout_constraintHorizontal_bias="0.774"
-        app:layout_constraintStart_toStartOf="@+id/ChamarGarçom"
-        app:layout_constraintTop_toBottomOf="@+id/ChamarGarçom"
+        app:layout_constraintStart_toStartOf="@+id/ChamarGarcom"
+        app:layout_constraintTop_toBottomOf="@+id/ChamarGarcom"
         tools:text="Chamar Garçom" />
 
     <android.support.constraint.Guideline
@@ -64,7 +64,7 @@
 
 
     <Button
-        android:id="@+id/ChamarGarçom"
+        android:id="@+id/ChamarGarcom"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginStart="124dp"

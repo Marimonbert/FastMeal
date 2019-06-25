@@ -56,7 +56,6 @@ public class ListaCategoriaActivity extends AppCompatActivity implements
     @Override
 
     public void MostraErro() {
-        Toast.makeText(this, "Erro ao obter itens", Toast.LENGTH_SHORT).show();
 
     }
 

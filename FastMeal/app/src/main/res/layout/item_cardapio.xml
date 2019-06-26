@@ -22,13 +22,15 @@
 
         <ImageView
             android:id="@+id/image_cardapio"
-            android:layout_width="129dp"
+            android:layout_width="143dp"
             android:layout_height="139dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="60dp"
+            android:layout_marginBottom="9dp"
             android:background="@drawable/logo"
             android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,9 +45,9 @@
             android:layout_marginBottom="8dp"
             android:padding="16dp"
             android:textAlignment="center"
-            android:textColor="@android:color/background_dark"
+            android:textColor="@android:color/holo_orange_dark"
             android:textSize="24sp"
-            android:textStyle="bold"
+            android:textStyle="italic"
             Tools:text="item pratro"
             app:layout_constraintBottom_toTopOf="@+id/image_cardapio"
             app:layout_constraintEnd_toEndOf="parent"
@@ -77,7 +79,9 @@
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="Selecionar"
+            android:textColor="@android:color/background_dark"
             android:textSize="18sp"
+            android:textStyle="italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -87,11 +91,10 @@
 
         <TextView
             android:id="@+id/txt_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="32dp"
+            android:layout_height="22dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
             android:text="Id"
             android:textColor="@android:color/background_dark"
@@ -99,7 +102,6 @@
             android:textStyle="bold"
             Tools:text="Id"
             app:layout_constraintBottom_toTopOf="@+id/image_cardapio"
-            app:layout_constraintEnd_toStartOf="@+id/text_nome"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -127,14 +129,14 @@
             android:layout_marginBottom="8dp"
             android:textColor="@android:color/holo_red_dark"
             android:textSize="24sp"
-            android:textStyle="bold"
+            android:textStyle="italic"
             Tools:text="valor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.429"
+            app:layout_constraintHorizontal_bias="0.401"
             app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/text_nome"
-            app:layout_constraintVertical_bias="0.323" />
+            app:layout_constraintVertical_bias="0.606" />
 
 
     </android.support.constraint.ConstraintLayout>

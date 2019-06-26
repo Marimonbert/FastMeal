@@ -11,7 +11,8 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="308dp"
+        android:background="#E5FFFFFF">
 
         <ImageView
             android:id="@+id/image_garcom"
@@ -19,10 +20,10 @@
             android:layout_height="171dp"
             android:layout_marginTop="72dp"
             android:layout_marginEnd="112dp"
-            android:background="@drawable/garcom"
+            android:background="@drawable/logo"
             android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.176"
+            app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -73,7 +74,7 @@
             android:layout_width="136dp"
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="8dp"
             android:background="@android:color/holo_green_dark"
             android:text="Chamar Garçom"

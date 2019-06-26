@@ -15,8 +15,8 @@
 
         <ImageView
             android:id="@+id/image_categoria"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="179dp"
+            android:layout_height="143dp"
             android:background="@drawable/logo"
             android:scaleType="fitXY" />
 

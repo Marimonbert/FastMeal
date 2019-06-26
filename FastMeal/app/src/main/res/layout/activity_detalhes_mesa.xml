@@ -10,16 +10,16 @@
         android:id="@+id/text_mesa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:textSize="18sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Tíulo do Filme" />
+        tools:text="Tíulo da mesa" />
 
 </android.support.constraint.ConstraintLayout>

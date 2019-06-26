@@ -8,8 +8,9 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_mesas"
-        android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:background="@drawable/fundor"
+        android:scrollbars="vertical" />
 
 </LinearLayout>

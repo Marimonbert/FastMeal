@@ -4,26 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="6dp"
+    android:layout_margin="35dp"
     android:orientation="vertical"
     app:cardBackgroundColor="@android:color/white"
     app:cardCornerRadius="8dp">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="308dp"
+        android:layout_height="265dp"
         android:background="#E5FFFFFF">
 
         <ImageView
             android:id="@+id/image_garcom"
-            android:layout_width="160dp"
-            android:layout_height="171dp"
-            android:layout_marginTop="72dp"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="68dp"
             android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
             android:background="@drawable/logo"
             android:scaleType="fitXY"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,7 +75,7 @@
             android:layout_width="136dp"
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:background="@android:color/holo_green_dark"
             android:text="Chamar Garçom"

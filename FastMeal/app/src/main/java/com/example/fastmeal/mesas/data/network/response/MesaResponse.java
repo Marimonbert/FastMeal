@@ -7,13 +7,27 @@ public class MesaResponse {
     @Json(name = "nome")
     private String nome;
 
+    @Json(name = "foto")
+    private String foto;
 
-    public MesaResponse(String nome) {
+    @Json(name = "nomeGarcom")
+    private String nomeGarcom;
 
+
+    public MesaResponse(String nome, String nomeGarcom, String foto) {
         this.nome = nome;
+        this.nomeGarcom = nomeGarcom;
+        this.foto = foto;
+    }
+
+    public String getNomeGarcom() {
+        return nomeGarcom;
     }
 
     public String getNome() {
         return nome;
+    }
+    public String getFoto() {
+        return foto;
     }
 }

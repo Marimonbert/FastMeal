@@ -13,7 +13,7 @@ public class MesaMapper {
         List<mesa> listaMesas = new ArrayList<>();
 
         for (MesaResponse mesaResponse : listaMesaResponse) {
-            final mesa mesa = new mesa(mesaResponse.getNome());
+            final mesa mesa = new mesa(mesaResponse.getNome(), mesaResponse.getFoto(), mesaResponse.getNomeGarcom());
             listaMesas.add(mesa);
         }
 

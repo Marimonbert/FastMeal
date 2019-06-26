@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.example.fastmeal.R;
 import com.example.fastmeal.mesas.data.model.mesa;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,15 +48,22 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
 
     static class ListaFilmesViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView textTituloFilme;
-        private ImageView imagePosterFilme;
+        private TextView text_mesa;
+        private TextView text_garcom;
+        private ImageView image_garcom;
         private mesa mesa;
 
         public ListaFilmesViewHolder(View itemView) {
             super(itemView);
 
-            textTituloFilme = itemView.findViewById(R.id.text_mesa);
-            imagePosterFilme = itemView.findViewById(R.id.image_garcom);
+
+            text_mesa = itemView.findViewById(R.id.text_mesa);
+
+            text_garcom = itemView.findViewById(R.id.text_garcom);
+
+            image_garcom = itemView.findViewById(R.id.image_garcom);
+
+
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -70,9 +78,16 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
         public void bind(mesa mesa) {
             this.mesa = mesa;
 
-            textTituloFilme.setText(mesa.getNome());
+            text_garcom.setText(mesa.getNomeGarcom());
+
+            text_mesa.setText(mesa.getNome());
+
+            Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + mesa.getFoto())
+                    .into(image_garcom);
+
 
         }
+
     }
 
     public void setMesas(List<mesa> mesas) {

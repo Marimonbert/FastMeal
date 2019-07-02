@@ -47,7 +47,7 @@ public class conta extends AppCompatActivity {
         databaseReference = ConexaoFirebase.getDatabaseReference(this);
 
         Intent i = getIntent();
-        uIdcliente = i.getStringExtra("uidCliente");
+        uIdcliente = ConexaoFirebase.getuIdCliente();
 
         inicilizarComponentes();
         eventoDatabase();

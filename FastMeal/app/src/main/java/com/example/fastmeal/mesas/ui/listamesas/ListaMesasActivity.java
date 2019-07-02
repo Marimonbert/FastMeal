@@ -9,9 +9,11 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
 import com.example.fastmeal.R;
+import com.example.fastmeal.firebase.ConexaoFirebase;
 import com.example.fastmeal.mesas.data.model.mesa;
 import com.example.fastmeal.mesas.ui.detalhesmesas.DetalhesMesaActivity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListaMesasActivity extends AppCompatActivity
@@ -45,7 +47,16 @@ public class ListaMesasActivity extends AppCompatActivity
 
     @Override
     public void mostraFilmes(List<mesa> mesas) {
-        MesasAdapter.setMesas(mesas);
+
+        List<mesa> newListMesa = new ArrayList<mesa>();
+
+        for (int i = 0;i<mesas.size();i++){
+            if (mesas.get(i).getId().equals(ConexaoFirebase.getIdMesa())){
+                newListMesa.add(mesas.get(i));
+            }
+        }
+
+        MesasAdapter.setMesas(newListMesa);
     }
 
     @Override

@@ -13,6 +13,7 @@ public class ConexaoFirebase {
     private static FirebaseDatabase firebaseDatabase;
     private static DatabaseReference databaseReference;
     private static String uIdCliente;
+    private static String idMesa;
 
 
     public static DatabaseReference getDatabaseReference(Context context){
@@ -27,9 +28,6 @@ public class ConexaoFirebase {
         return databaseReference;
     }
 
-    public static FirebaseDatabase getFirebaseDatabase(Context context){
-        return firebaseDatabase;
-    }
 
     public static String getuIdCliente(){
         if (uIdCliente==null){
@@ -38,4 +36,11 @@ public class ConexaoFirebase {
         return uIdCliente;
     }
 
+    public static String getIdMesa() {
+        return idMesa;
+    }
+
+    public static void setIdMesa(String idMesa) {
+        ConexaoFirebase.idMesa = idMesa;
+    }
 }

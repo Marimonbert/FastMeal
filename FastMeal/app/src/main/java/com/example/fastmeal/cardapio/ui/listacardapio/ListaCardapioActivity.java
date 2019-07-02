@@ -18,6 +18,7 @@ import com.example.fastmeal.categoria.categoria.GuiaCategoria.categoria;
 import com.example.fastmeal.conta.conta;
 import com.example.fastmeal.firebase.ConexaoFirebase;
 import com.example.fastmeal.mesas.ui.listamesas.ListaMesasActivity;
+import com.example.fastmeal.modelo.OrdemPedido;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -37,7 +38,7 @@ public class ListaCardapioActivity extends AppCompatActivity implements ListaCar
     private categoria cEsc = null;
     CheckBox Selecionar;
     private String uiCliente;
-    private FirebaseDatabase firebaseDatabase;
+  //  private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
 
 
@@ -49,6 +50,9 @@ public class ListaCardapioActivity extends AppCompatActivity implements ListaCar
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_cardapio);
+
+        uiCliente = ConexaoFirebase.getuIdCliente();
+        databaseReference = ConexaoFirebase.getDatabaseReference(this);
 
         inicializarComponentes();
         eventosButtons();
@@ -93,8 +97,17 @@ public class ListaCardapioActivity extends AppCompatActivity implements ListaCar
                         c.setuId(UUID.randomUUID().toString());
                         c.setValor(cardapios.get(i).getValor());
                         c.setNome(cardapios.get(i).getNome());
-
+                        c.setEscolhido(true);
                         databaseReference.child("cliente").child(uiCliente).child("pedido").child(c.getuId()).setValue(c);
+
+                        OrdemPedido op = new OrdemPedido();
+                        op.setPosicao(System.currentTimeMillis());
+                        op.setUidCliente(uiCliente);
+                        op.setUidOrdemP(UUID.randomUUID().toString());
+                        op.setUidMesa(ConexaoFirebase.getIdMesa());
+                        op.setUidPedido(c.getuId());
+
+                        databaseReference.child("ordemPedido").setValue(op);
                     }
                 }
 //                databaseReference.child("teste").setValue("testando");
@@ -158,9 +171,8 @@ public class ListaCardapioActivity extends AppCompatActivity implements ListaCar
     @Override
     protected void onStart() {
         super.onStart();
-        uiCliente = ConexaoFirebase.getuIdCliente();
-        databaseReference = ConexaoFirebase.getDatabaseReference(this);
-        firebaseDatabase = ConexaoFirebase.getFirebaseDatabase(this);
+
+       // firebaseDatabase = ConexaoFirebase.getFirebaseDatabase(this);
     }
 
 

@@ -4,6 +4,9 @@ import com.squareup.moshi.Json;
 
 public class MesaResponse {
 
+    @Json(name = "id")
+    private String id;
+
     @Json(name = "nome")
     private String nome;
 
@@ -13,15 +16,28 @@ public class MesaResponse {
     @Json(name = "nomeGarcom")
     private String nomeGarcom;
 
+    @Json(name = "idGarcom")
+    private String idGarcom;
 
-    public MesaResponse(String nome, String nomeGarcom, String foto) {
+
+    public MesaResponse(String id, String idGarcom,String nome, String nomeGarcom, String foto) {
         this.nome = nome;
         this.nomeGarcom = nomeGarcom;
         this.foto = foto;
+        this.id = id;
+        this.idGarcom = idGarcom;
     }
 
     public String getNomeGarcom() {
         return nomeGarcom;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getIdGarcom() {
+        return idGarcom;
     }
 
     public String getNome() {

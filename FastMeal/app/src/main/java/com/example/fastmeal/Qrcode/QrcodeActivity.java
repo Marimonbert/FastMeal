@@ -10,10 +10,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.fastmeal.Http.HttpService;
 import com.example.fastmeal.LigacoesClasse.LigacoesClasses;
 import com.example.fastmeal.R;
+import com.example.fastmeal.firebase.ConexaoFirebase;
+import com.example.fastmeal.mesas.data.model.mesa;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
+
+import java.util.concurrent.ExecutionException;
 
 import garcom.InicialGarcom;
 
@@ -42,22 +47,20 @@ public class QrcodeActivity extends AppCompatActivity {
                 integrator.setCameraId(0);
 
                 integrator.initiateScan();
-
-
             }
         });
     }
-
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if (result != null) {
             if (result.getContents()!= null){
-                   if(result.getContents().toString().equals("1")) {
+                mesa mPesquisada = buscaMesa(result.getContents());
+                   if(!mPesquisada.equals(null)) {
+                       ConexaoFirebase.setIdMesa(mPesquisada.getId());
                        Intent intent = new Intent(this, LigacoesClasses.class);
                        startActivity(intent);
-
 
             } else {
                 alert("Leitura Cancelada");
@@ -105,6 +108,17 @@ public class QrcodeActivity extends AppCompatActivity {
 
     }
 
+    private mesa buscaMesa(String idMesa){
+        try {
+            mesa rMesa =  new HttpService(idMesa).execute().get();
+            return rMesa;
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
 
 

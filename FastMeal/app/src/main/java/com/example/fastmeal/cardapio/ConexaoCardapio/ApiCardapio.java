@@ -10,7 +10,8 @@ public class ApiCardapio {
     public static InterfaceCardapio getINSTANCE() {
         if (INSTANCE == null) {
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://3.19.60.179/")
+                    //.baseUrl("http://test.simulados.com.br/")
+                   .baseUrl("http://3.19.60.179/")
                     .addConverterFactory(MoshiConverterFactory.create())
 
                     .build();

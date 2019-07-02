@@ -5,8 +5,12 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.CheckBox;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.fastmeal.R;
 import com.example.fastmeal.cardapio.ResponseCardapio.CardapioResponse;
@@ -53,11 +57,12 @@ public class ListaCardapioAdapter extends RecyclerView.Adapter<ListaCardapioAdap
         private TextView Txt_nome, txt_id, txt_descricao, txt_valor;
 
         private ImageView foto;
+        private CheckBox checkEscolha;
+
+        private Spinner spinnerQuantidade;
 
         public ListaCardapioViewHolder(@NonNull View itemView) {
             super(itemView);
-
-
 
             Txt_nome = itemView.findViewById(R.id.text_nome);
             txt_descricao = itemView.findViewById(R.id.txt_descricao);
@@ -65,25 +70,51 @@ public class ListaCardapioAdapter extends RecyclerView.Adapter<ListaCardapioAdap
             txt_valor = itemView.findViewById(R.id.txt_valor);
 
             foto = itemView.findViewById(R.id.image_cardapio);
+            checkEscolha = itemView.findViewById(R.id.check_selecionar);
+            spinnerQuantidade = itemView.findViewById(R.id.spinner);
+
 
         }
 
-        public void bind(cardapio cardapio) {
+        private void eventoCheck(final cardapio cardapioO) {
+            checkEscolha.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    cardapioO.setEscolhido(checkEscolha.isChecked());
+                }
+            });
 
-            Txt_nome.setText(cardapio.getNome());
-            txt_descricao.setText(cardapio.getDescricao());
-                txt_id.setText(cardapio.getId());
-            txt_valor.setText(cardapio.getValor());
+            spinnerQuantidade.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
+                public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                    cardapioO.setQuantidade(Integer.parseInt(spinnerQuantidade.getItemAtPosition(position).toString()));
+                }
 
-            Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + cardapio.getFoto())
-                    .into(foto);
+                @Override
+                public void onNothingSelected(AdapterView<?> parent) {
 
+                }
+            });
+        }
 
+        public void bind(cardapio cardapioO) {
 
+            Txt_nome.setText(cardapioO.getNome());
+            txt_descricao.setText(cardapioO.getDescricao());
+                txt_id.setText(cardapioO.getId());
+            txt_valor.setText(cardapioO.getValor());
+
+            Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + cardapioO.getFoto()).into(foto);
+            eventoCheck(cardapioO);
         }
     }
     public void setCardapios(List<cardapio> cardapios){
         this.cardapios = cardapios;
         notifyDataSetChanged();
     }
+
+    public List<cardapio> getCardapios(){
+        return  cardapios;
+    }
+
 }

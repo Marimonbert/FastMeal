@@ -15,4 +15,17 @@
     <string name="title_activity_bebidas">Bebidas</string>
     <string name="title_activity_sanduiches">Sanduiches</string>
     <string name="title_activity_pizzas">Pizzas</string>
+    <string name="title_activity_avaliar_garcom">AvaliarGarcom</string>
+    <string name="title_activity_conta">conta</string>
+    <string name="title_activity_visualizar_pedidos">VisualizarPedidos</string>
+    <string-array name="quantidade">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
 </resources>
+

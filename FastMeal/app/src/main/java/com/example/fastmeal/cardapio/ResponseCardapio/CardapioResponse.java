@@ -9,11 +9,11 @@ public class CardapioResponse {
     private String idCategoria;
 
     @Json(name = "nome")
-    private String nome;
+    private String nome = "maria";
 
 
     @Json(name = "descricao")
-    private String descricao;
+    private String descricao = "linda";
 
     @Json(name = "valor")
     private String valor;

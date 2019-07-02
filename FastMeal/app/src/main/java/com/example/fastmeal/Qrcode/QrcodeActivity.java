@@ -15,6 +15,8 @@ import com.example.fastmeal.R;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import garcom.InicialGarcom;
+
 public class QrcodeActivity extends AppCompatActivity {
     Button btnScan;
 
@@ -34,44 +36,67 @@ public class QrcodeActivity extends AppCompatActivity {
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                IntentIntegrator integrator = new IntentIntegrator(activity);
+                IntentIntegrator integrator = new IntentIntegrator(activity);
 
-//               integrator.setDesiredBarcodeFormats (IntentIntegrator.QR_CODE_TYPES);
-//                integrator.setCameraId(0);
+                integrator.setDesiredBarcodeFormats (IntentIntegrator.QR_CODE_TYPES);
+                integrator.setCameraId(0);
 
-//                integrator.initiateScan();
-                Intent intent = new Intent(getApplicationContext(), LigacoesClasses.class);
-                startActivity(intent);
+                integrator.initiateScan();
+
 
             }
         });
     }
 
 
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
-//        if (result != null) {
-//            if (result.getContents()!= null){
-//                   if(!result.getContents().toString().trim().equals("")) {
-//                       String[] captura = result.getContents().toString().trim().split(":");
-//                       if (captura[0].equals("mesa")){
-//                            pesquisaMesa(captura[1]);
-//                       }else{
-//                        alert("Item não identificado");
-//                       }
-//            } else {
-//                alert("Leitura Cancelada");
-//
-//            }
-//            }else{
-//                alert("falha na leitura");
-//            }
-//        } else {
-//            super.onActivityResult(requestCode, resultCode, data);
-//
-//        }
-//    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
+        if (result != null) {
+            if (result.getContents()!= null){
+                   if(result.getContents().toString().equals("1")) {
+                       Intent intent = new Intent(this, LigacoesClasses.class);
+                       startActivity(intent);
+
+
+            } else {
+                alert("Leitura Cancelada");
+
+            }
+            }else{
+                alert("falha na leitura");
+
+
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+
+        }
+    }
+
+    protected void onActivity(int requestCode, int resultCode, Intent data) {
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
+        if (result != null) {
+            if (result.getContents()!= null){
+                if(result.getContents().toString().equals("1")) {
+                    Intent intent = new Intent(this, LigacoesClasses.class);
+                    startActivity(intent);
+                        
+
+                } else {
+                    alert("Leitura Cancelada");
+
+                }
+            }else{
+                alert("falha na leitura");
+
+
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
+
+        }
+    }
 
 
     private void alert(String msg) {
@@ -80,12 +105,7 @@ public class QrcodeActivity extends AppCompatActivity {
 
     }
 
-    private void pesquisaMesa(String s){
-        alert("mesa encontrada: "+s);
-            Intent intent = new Intent(this, LigacoesClasses.class);
-            startActivity(intent);
 
-    }
 
 
 }

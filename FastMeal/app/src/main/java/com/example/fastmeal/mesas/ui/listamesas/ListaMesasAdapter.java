@@ -8,14 +8,12 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.example.fastmeal.R;
 import com.example.fastmeal.firebase.ConexaoFirebase;
 import com.example.fastmeal.mesas.data.model.mesa;
 import com.example.fastmeal.modelo.ChamaGarcon;
 import com.google.firebase.database.DatabaseReference;
 import com.squareup.picasso.Picasso;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -28,7 +26,6 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
 
     public ListaMesasAdapter(ItemMesaClickListener itemMesasClickListener) {
         this.itemMesasClickListener = itemMesasClickListener;
-
         mesas = new ArrayList<>();
     }
 
@@ -36,7 +33,6 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
     @Override
     public ListaFilmesViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_mesa, parent, false);
-
         return new ListaFilmesViewHolder(view);
     }
 
@@ -62,16 +58,10 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
         public ListaFilmesViewHolder(View itemView) {
             super(itemView);
 
-
             text_mesa = itemView.findViewById(R.id.text_mesa);
-
             text_garcom = itemView.findViewById(R.id.text_garcom);
-
             image_garcom = itemView.findViewById(R.id.image_garcom);
-
             btnChamar = itemView.findViewById(R.id.btnChamar);
-
-
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -87,7 +77,6 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
             this.mesa = mesa;
 
             text_garcom.setText(mesa.getNomeGarcom());
-
             text_mesa.setText(mesa.getNome());
 
             Picasso.get().load("http://3.19.60.179/fastmeal/assets/imagens/" + mesa.getFoto())
@@ -109,9 +98,9 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
                     cg.setUidChamada(UUID.randomUUID().toString());
                     cg.setIdMesa(idMesa);
                     cg.setIdGarcom(idGarcon);
+                    cg.setPosicao(System.currentTimeMillis());
 
                     databaseReference.child("chamarGarcom").child(cg.getUidChamada()).setValue(cg);
-
                 }
             });
         }

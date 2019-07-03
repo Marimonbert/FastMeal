@@ -1,4 +1,5 @@
 package com.example.fastmeal.Qrcode;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -48,15 +49,11 @@ public class QrcodeActivity extends AppCompatActivity {
                        ConexaoFirebase.setIdGarcom(mPesquisada.getIdGarcom());
                        Intent intent = new Intent(this, LigacoesClasses.class);
                        startActivity(intent);
-
             } else {
-                alert("Leitura Cancelada");
-
+                alert("Leitura cancelada ou mesa não identificada");
             }
             }else{
-                alert("falha na leitura");
-
-
+                alert("Falha na leitura");
             }
         } else {
             super.onActivityResult(requestCode, resultCode, data);
@@ -80,9 +77,3 @@ public class QrcodeActivity extends AppCompatActivity {
     }
 
 }
-
-
-
-
-
-

@@ -3,18 +3,18 @@ package com.example.fastmeal.conta;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.fastmeal.LigacoesClasse.LigacoesClasses;
 import com.example.fastmeal.R;
+import com.example.fastmeal.avaliação.AvaliarGarcom;
 import com.example.fastmeal.cardapio.GuiaCardapio.cardapio;
 import com.example.fastmeal.cardapio.ui.listacardapio.ListaCardapioActivity;
 import com.example.fastmeal.firebase.ConexaoFirebase;
@@ -28,13 +28,13 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+
 public class conta extends AppCompatActivity {
 
     private TextView txtVPedido, txtVTotal;
     private Button btnFinalizar;
 
     private String uIdcliente;
-   // private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
     private float ContaTotal=0;
     private String pedidoTotal= "Pedidos\n";
@@ -45,14 +45,26 @@ public class conta extends AppCompatActivity {
         setContentView(R.layout.activity_conta);
 
         databaseReference = ConexaoFirebase.getDatabaseReference(this);
-
-        Intent i = getIntent();
         uIdcliente = ConexaoFirebase.getuIdCliente();
 
+        btnFinalizar= (Button) findViewById(R.id.button2);
         inicilizarComponentes();
         eventoDatabase();
+        eventoButton();
 
 
+    }
+
+    private void eventoButton() {
+
+        btnFinalizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), AvaliarGarcom.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 
 
@@ -64,12 +76,12 @@ public class conta extends AppCompatActivity {
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             for (DataSnapshot snapshot:dataSnapshot.getChildren()) {
                                 cardapio c = (cardapio) snapshot.getValue(cardapio.class);
-                                pedidoTotal= pedidoTotal + c.getQuantidade()+" x "+c.getNome()+"\n";
+                                pedidoTotal = pedidoTotal+ c.getQuantidade()+" x "+c.getNome()+"\n";
                                 float valor = c.getQuantidade() * ((Float.parseFloat(c.getValor())));
                                 ContaTotal = ContaTotal + valor;
-                                populaTela(pedidoTotal,ContaTotal);
 
                             }
+                                populaTela(pedidoTotal,ContaTotal);
                         }
 
                         @Override

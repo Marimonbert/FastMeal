@@ -14,6 +14,7 @@ public class ConexaoFirebase {
     private static DatabaseReference databaseReference;
     private static String uIdCliente;
     private static String idMesa;
+    private static String idGarcom;
 
 
     public static DatabaseReference getDatabaseReference(Context context){
@@ -42,5 +43,13 @@ public class ConexaoFirebase {
 
     public static void setIdMesa(String idMesa) {
         ConexaoFirebase.idMesa = idMesa;
+    }
+
+    public static String getIdGarcom() {
+        return idGarcom;
+    }
+
+    public static void setIdGarcom(String idGarcom) {
+        ConexaoFirebase.idGarcom = idGarcom;
     }
 }

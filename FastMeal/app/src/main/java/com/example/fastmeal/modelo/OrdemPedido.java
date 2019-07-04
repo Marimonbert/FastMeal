@@ -7,6 +7,7 @@ public class OrdemPedido {
     private long posicao;
     private String uidOrdemP;
     private String uidMesa;
+    private String idGarcom;
 
     public String getUidCliente() {
         return uidCliente;
@@ -49,6 +50,14 @@ public class OrdemPedido {
     }
 
     public OrdemPedido() {
+    }
+
+    public String getIdGarcom() {
+        return idGarcom;
+    }
+
+    public void setIdGarcom(String idGarcom) {
+        this.idGarcom = idGarcom;
     }
 
     @Override

@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.fastmeal.LigacoesClasse.LigacoesClasses;
 import com.example.fastmeal.R;
 import com.example.fastmeal.avaliação.AvaliarGarcom;
@@ -50,6 +51,8 @@ public class conta extends AppCompatActivity {
         inicilizarComponentes();
         eventoDatabase();
         eventoButton();
+
+
     }
 
     private void eventoButton() {
@@ -66,6 +69,7 @@ public class conta extends AppCompatActivity {
 
 
     private void eventoDatabase() {
+
                     Query query = databaseReference.child("cliente").child(uIdcliente).child("pedido");
                     query.addValueEventListener(new ValueEventListener() {
                         @Override
@@ -75,12 +79,14 @@ public class conta extends AppCompatActivity {
                                 pedidoTotal = pedidoTotal+ c.getQuantidade()+" x "+c.getNome()+"\n";
                                 float valor = c.getQuantidade() * ((Float.parseFloat(c.getValor())));
                                 ContaTotal = ContaTotal + valor;
+
                             }
                                 populaTela(pedidoTotal,ContaTotal);
                         }
 
                         @Override
                         public void onCancelled(@NonNull DatabaseError databaseError) {
+
                         }
                     });
 
@@ -101,6 +107,7 @@ public class conta extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+
     }
 
     private void alert(String s ){

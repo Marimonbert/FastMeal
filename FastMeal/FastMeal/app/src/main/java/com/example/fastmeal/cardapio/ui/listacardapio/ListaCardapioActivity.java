@@ -107,6 +107,9 @@ public class ListaCardapioActivity extends AppCompatActivity implements ListaCar
                         op.setUidMesa(ConexaoFirebase.getIdMesa());
                         op.setUidPedido(c.getuId());
                         op.setIdGarcom(ConexaoFirebase.getIdGarcom());
+                        op.setNomeMesa(ConexaoFirebase.getNomeMesa());
+                        op.setNomePedido(c.getNome());
+                        op.setQuatidade(c.getQuantidade()+"");
 
                         databaseReference.child("ordemPedido").child(op.getUidOrdemP()).setValue(op);
                     }

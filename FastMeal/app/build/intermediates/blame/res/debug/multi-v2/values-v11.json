@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "150"
+                    }
+                }
+            ]
+        }
+    ]
+}

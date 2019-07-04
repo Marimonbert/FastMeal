@@ -1,0 +1,4 @@
+#Wed Jul 03 21:04:03 BRT 2019
+base.0=/home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

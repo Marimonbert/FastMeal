@@ -60,6 +60,8 @@ public class QrcodeActivity extends AppCompatActivity {
                    if(!mPesquisada.equals(null)) {
                        ConexaoFirebase.setIdMesa(mPesquisada.getId());
                        ConexaoFirebase.setIdGarcom(mPesquisada.getIdGarcom());
+                       ConexaoFirebase.setNomeMesa(mPesquisada.getNome());
+                       ConexaoFirebase.setNomeGarcom(mPesquisada.getNomeGarcom());
                        Intent intent = new Intent(this, LigacoesClasses.class);
                        startActivity(intent);
 

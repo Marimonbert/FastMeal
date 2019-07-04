@@ -8,6 +8,9 @@ public class OrdemPedido {
     private String uidOrdemP;
     private String uidMesa;
     private String idGarcom;
+    private String nomeMesa;
+    private String nomePedido;
+    private String quatidade;
 
     public String getUidCliente() {
         return uidCliente;
@@ -63,5 +66,29 @@ public class OrdemPedido {
     @Override
     public String toString() {
         return "OrdemPedido: posicão: " + posicao +" - Mesa: "+ uidMesa;
+    }
+
+    public String getNomeMesa() {
+        return nomeMesa;
+    }
+
+    public void setNomeMesa(String nomeMesa) {
+        this.nomeMesa = nomeMesa;
+    }
+
+    public String getNomePedido() {
+        return nomePedido;
+    }
+
+    public void setNomePedido(String nomePedido) {
+        this.nomePedido = nomePedido;
+    }
+
+    public String getQuatidade() {
+        return quatidade;
+    }
+
+    public void setQuatidade(String quatidade) {
+        this.quatidade = quatidade;
     }
 }

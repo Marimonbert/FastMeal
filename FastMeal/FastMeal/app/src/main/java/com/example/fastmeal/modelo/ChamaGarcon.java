@@ -5,6 +5,7 @@ public class ChamaGarcon {
     private String uidChamada;
     private String idMesa;
     private String idGarcom;
+    private String nomeMesa;
 
     public String getUidChamada() {
         return uidChamada;
@@ -28,5 +29,13 @@ public class ChamaGarcon {
 
     public void setIdGarcom(String idGarcom) {
         this.idGarcom = idGarcom;
+    }
+
+    public String getNomeMesa() {
+        return nomeMesa;
+    }
+
+    public void setNomeMesa(String nomeMesa) {
+        this.nomeMesa = nomeMesa;
     }
 }

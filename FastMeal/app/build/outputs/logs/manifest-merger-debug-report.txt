@@ -1,0 +1,390 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:design:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6aed8d6d0c5c0e2180dbe7ae7d7ed7f0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/0bd6a6b50710e6d387dc89d79207d645/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/684f922031bf8904d7731dba76a9fa4f/AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:17:1-55:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ac6b2b5029ae8765d3260525791c2fbd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2b4becf740be9050155c30d36f08d4e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41319a4c6bbd094add5a1ae9566642b7/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2c94a9ab5752a551018257c84ed366a1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/82cf27694697649b8adfdc108f8ec7cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/c463d1cdce913888854832d671447952/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/320c0ee09833ee92105c4c1d6df9feab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2062ef9f6f379925a055cafc0c544682/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2db6881527752449baa8a3cf3edb2640/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/71988fec63e2359d1c24ec3a2d84ed07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7a7b8e6d98dfd1bdcdf7a6e5aac7ec4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/3044e85a5a70a31455af970cd3a1d93a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6ee1845ebbec37594c1eb1da3b8e88f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d0f472b6535506164525ae94dc5b03f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/351fbf031571ebc9ac6fd7db270ff62e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2348d3ceae4e070b744bc34551e144ca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/996170bf164b263ac6d5a1398503bc88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1984cb2651e02d5cb8916ba517378232/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/36a9e3f514351b89c0bcd8808da4e8f4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/f8e19501bace6af52d719c6780979c16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/03e638d92b2cff6e7169419d960cbaf4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/4ea9a7f98c4a2ad6f52f33d12b713771/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2371af3b1357322f01399564e6dc25a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1749df90cfe9f48b013c72e30c351a49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/53719ecc2c9d64ac2c93ee870a969ed7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5fe80b7309bd2f51acf3b752e8f4f794/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/97abaab0c123730ababa5717520f86b5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/a28bf1475344051e88cb724e1c8f2def/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/32326442094931992a042de9af53c335/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d9bbfbd2688a57e46f2eb3becfaff7ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41a671e1fb49b56ae751b769ec4ae0cc/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:1-45:12
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:7:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:21:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:7:22-62
+application
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:9:5-43:19
+MERGED from [com.android.support:design:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6aed8d6d0c5c0e2180dbe7ae7d7ed7f0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6aed8d6d0c5c0e2180dbe7ae7d7ed7f0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/684f922031bf8904d7731dba76a9fa4f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/684f922031bf8904d7731dba76a9fa4f/AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:45:5-53:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41319a4c6bbd094add5a1ae9566642b7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41319a4c6bbd094add5a1ae9566642b7/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2c94a9ab5752a551018257c84ed366a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2c94a9ab5752a551018257c84ed366a1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/36a9e3f514351b89c0bcd8808da4e8f4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/36a9e3f514351b89c0bcd8808da4e8f4/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:17:9-48
+	android:roundIcon
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:11:9-38
+	android:allowBackup
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:16:9-40
+	android:networkSecurityConfig
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:13:9-69
+activity#com.example.fastmeal.Pedidos.VisualizarPedidos
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:18:9-21:68
+	android:label
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:20:13-70
+	android:theme
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:21:13-56
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:19:13-54
+activity#com.example.fastmeal.conta.conta
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:22:9-25:59
+	android:label
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:24:13-57
+	android:theme
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:25:13-56
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:23:13-40
+activity#com.example.fastmeal.avaliação.AvaliarGarcom
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:26:9-29:59
+	android:label
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:28:13-66
+	android:theme
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:27:13-52
+activity#com.example.fastmeal.mesas.ui.listamesas.ListaMesasActivity
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:30:9-76
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:30:19-73
+activity#com.example.fastmeal.categoria.categoria.ui.categoria.ListaCategoriaActivity
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:31:9-93
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:31:19-90
+activity#com.example.fastmeal.cardapio.ui.listacardapio.ListaCardapioActivity
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:32:9-85
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:32:19-82
+activity#com.example.fastmeal.LigacoesClasse.LigacoesClasses
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:33:9-68
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:33:19-65
+activity#com.example.fastmeal.Qrcode.QrcodeActivity
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:34:9-42:20
+	android:screenOrientation
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:35:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml:40:27-74
+uses-sdk
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6aed8d6d0c5c0e2180dbe7ae7d7ed7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6aed8d6d0c5c0e2180dbe7ae7d7ed7f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/0bd6a6b50710e6d387dc89d79207d645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/0bd6a6b50710e6d387dc89d79207d645/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/684f922031bf8904d7731dba76a9fa4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/684f922031bf8904d7731dba76a9fa4f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ac6b2b5029ae8765d3260525791c2fbd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ac6b2b5029ae8765d3260525791c2fbd/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2b4becf740be9050155c30d36f08d4e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2b4becf740be9050155c30d36f08d4e9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41319a4c6bbd094add5a1ae9566642b7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41319a4c6bbd094add5a1ae9566642b7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2c94a9ab5752a551018257c84ed366a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2c94a9ab5752a551018257c84ed366a1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/82cf27694697649b8adfdc108f8ec7cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/82cf27694697649b8adfdc108f8ec7cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/c463d1cdce913888854832d671447952/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/c463d1cdce913888854832d671447952/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/320c0ee09833ee92105c4c1d6df9feab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/320c0ee09833ee92105c4c1d6df9feab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2062ef9f6f379925a055cafc0c544682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2062ef9f6f379925a055cafc0c544682/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2db6881527752449baa8a3cf3edb2640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2db6881527752449baa8a3cf3edb2640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/71988fec63e2359d1c24ec3a2d84ed07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/71988fec63e2359d1c24ec3a2d84ed07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7a7b8e6d98dfd1bdcdf7a6e5aac7ec4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7a7b8e6d98dfd1bdcdf7a6e5aac7ec4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/3044e85a5a70a31455af970cd3a1d93a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/3044e85a5a70a31455af970cd3a1d93a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6ee1845ebbec37594c1eb1da3b8e88f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/6ee1845ebbec37594c1eb1da3b8e88f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d0f472b6535506164525ae94dc5b03f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d0f472b6535506164525ae94dc5b03f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/351fbf031571ebc9ac6fd7db270ff62e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/351fbf031571ebc9ac6fd7db270ff62e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2348d3ceae4e070b744bc34551e144ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2348d3ceae4e070b744bc34551e144ca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/996170bf164b263ac6d5a1398503bc88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/996170bf164b263ac6d5a1398503bc88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1984cb2651e02d5cb8916ba517378232/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1984cb2651e02d5cb8916ba517378232/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/ed015294bc023e4ec56df19e0d620d27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/36a9e3f514351b89c0bcd8808da4e8f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/36a9e3f514351b89c0bcd8808da4e8f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/f8e19501bace6af52d719c6780979c16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/f8e19501bace6af52d719c6780979c16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/03e638d92b2cff6e7169419d960cbaf4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/03e638d92b2cff6e7169419d960cbaf4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/4ea9a7f98c4a2ad6f52f33d12b713771/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/4ea9a7f98c4a2ad6f52f33d12b713771/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2371af3b1357322f01399564e6dc25a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/2371af3b1357322f01399564e6dc25a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1749df90cfe9f48b013c72e30c351a49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/1749df90cfe9f48b013c72e30c351a49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/53719ecc2c9d64ac2c93ee870a969ed7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/53719ecc2c9d64ac2c93ee870a969ed7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5fe80b7309bd2f51acf3b752e8f4f794/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5fe80b7309bd2f51acf3b752e8f4f794/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/97abaab0c123730ababa5717520f86b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/97abaab0c123730ababa5717520f86b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/a28bf1475344051e88cb724e1c8f2def/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/a28bf1475344051e88cb724e1c8f2def/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/32326442094931992a042de9af53c335/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/32326442094931992a042de9af53c335/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d9bbfbd2688a57e46f2eb3becfaff7ac/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/d9bbfbd2688a57e46f2eb3becfaff7ac/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41a671e1fb49b56ae751b769ec4ae0cc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/41a671e1fb49b56ae751b769ec4ae0cc/AndroidManifest.xml:5:5-44
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		ADDED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+		INJECTED from /home/williangcarv/AndroidStudioProjects/FasTemplate/FastMeal/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:24:5-26:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:26:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:25:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:27:5-29:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:29:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:28:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:32:5-34:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:34:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:33:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:35:5-37:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:37:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:36:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:39:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:42:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:46:9-52:63
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:49:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:48:13-45
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:50:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:52:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.2.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/7edf7a8b562a4120063a0a077afd07b3/AndroidManifest.xml:47:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/450a860bdb4f648b1adb9ba1fbbe435e/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:29:9-33:19
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/5e1c9341ec7ebc851b0c53d1ddb0135a/AndroidManifest.xml:31:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/fee2a2e4d1fd3495a88e15a22448243d/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:17.0.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/dfb4046586d7f3fe6d0cfce2105ba4f2/AndroidManifest.xml:13:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/94fa09f0ea045b355b77d1b937da9144/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/28561334ebbff58ad645a6cb1b2f5c32/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /home/williangcarv/.gradle/caches/transforms-2/files-2.1/b6aee69fbf48513761f3e4fd90ae10bc/AndroidManifest.xml:27:13-51

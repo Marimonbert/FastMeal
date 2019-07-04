@@ -109,6 +109,7 @@ public class ListaMesasAdapter extends RecyclerView.Adapter<ListaMesasAdapter.Li
                     cg.setUidChamada(UUID.randomUUID().toString());
                     cg.setIdMesa(idMesa);
                     cg.setIdGarcom(idGarcon);
+                    cg.setNomeMesa(ConexaoFirebase.getNomeMesa());
 
                     databaseReference.child("chamarGarcom").child(cg.getUidChamada()).setValue(cg);
 

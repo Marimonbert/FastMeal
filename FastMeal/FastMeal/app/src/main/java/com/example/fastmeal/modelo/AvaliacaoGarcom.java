@@ -5,6 +5,7 @@ public class AvaliacaoGarcom {
     private String uidAvaliacao;
     private String idGarcom;
     private Float nota;
+    private String nomeGarcom;
 
     public String getUidAvaliacao() {
         return uidAvaliacao;
@@ -30,5 +31,11 @@ public class AvaliacaoGarcom {
         this.nota = nota;
     }
 
+    public String getNomeGarcom() {
+        return nomeGarcom;
+    }
 
+    public void setNomeGarcom(String nomeGarcom) {
+        this.nomeGarcom = nomeGarcom;
+    }
 }

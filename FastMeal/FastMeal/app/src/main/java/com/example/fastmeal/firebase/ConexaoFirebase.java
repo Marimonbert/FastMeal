@@ -15,6 +15,8 @@ public class ConexaoFirebase {
     private static String uIdCliente;
     private static String idMesa;
     private static String idGarcom;
+    private static String nomeGarcom;
+    private static String nomeMesa;
 
 
     public static DatabaseReference getDatabaseReference(Context context){
@@ -47,6 +49,26 @@ public class ConexaoFirebase {
 
     public static String getIdGarcom() {
         return idGarcom;
+    }
+
+    public static void setuIdCliente(String uIdCliente) {
+        ConexaoFirebase.uIdCliente = uIdCliente;
+    }
+
+    public static String getNomeGarcom() {
+        return nomeGarcom;
+    }
+
+    public static void setNomeGarcom(String nomeGarcom) {
+        ConexaoFirebase.nomeGarcom = nomeGarcom;
+    }
+
+    public static String getNomeMesa() {
+        return nomeMesa;
+    }
+
+    public static void setNomeMesa(String nomeMesa) {
+        ConexaoFirebase.nomeMesa = nomeMesa;
     }
 
     public static void setIdGarcom(String idGarcom) {

@@ -47,6 +47,7 @@ public class AvaliarGarcom extends AppCompatActivity {
         ag.setUidAvaliacao(UUID.randomUUID().toString());
         ag.setIdGarcom(idGarcom);
         ag.setNota(nota);
+        ag.setNomeGarcom(ConexaoFirebase.getNomeGarcom());
 
         databaseReference.child("avaliacao").child(ag.getUidAvaliacao()).setValue(ag);
 

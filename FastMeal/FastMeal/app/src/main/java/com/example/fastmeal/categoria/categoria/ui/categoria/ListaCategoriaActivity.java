@@ -5,11 +5,14 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.fastmeal.R;
 import com.example.fastmeal.cardapio.ui.listacardapio.ListaCardapioActivity;
 import com.example.fastmeal.categoria.categoria.GuiaCategoria.categoria;
+import com.example.fastmeal.conta.conta;
 
 import java.util.List;
 public class ListaCategoriaActivity extends AppCompatActivity implements
@@ -20,10 +23,14 @@ public class ListaCategoriaActivity extends AppCompatActivity implements
     private ListaCategoriaAdapter cardapioAdapter;
     private ListaCategoriaContrato.ListaCategoriasPresenter presenter;
 
+    private Button btnVisualizar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_categoria);
+        btnVisualizar = (Button) findViewById(R.id.Visualizar);
+
 
         ConfiguraAdapter();
 
@@ -31,7 +38,18 @@ public class ListaCategoriaActivity extends AppCompatActivity implements
         presenter = new ListaCategoriaPresenter(this);
         presenter.ObtemCategoria();
 
+        eventoButton();
+    }
 
+    private void eventoButton() {
+        btnVisualizar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ListaCategoriaActivity.this, conta.class);
+               // i.putExtra("uidCliente",uiCliente);
+                startActivity(i);
+            }
+        });
     }
 
     public void ConfiguraAdapter() {

@@ -37,7 +37,7 @@ public class conta extends AppCompatActivity {
     private String uIdcliente;
     private DatabaseReference databaseReference;
     private float ContaTotal=0;
-    private String pedidoTotal= "Pedidos\n";
+    private String pedidoTotal= "Seus pedidos:" + "\n";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,7 +94,7 @@ public class conta extends AppCompatActivity {
 
     private void populaTela(String pedidoTotal, float contaTotal) {
         txtVPedido.setText(pedidoTotal);
-        txtVTotal.setText("Total conta: R$ "+contaTotal);
+        txtVTotal.setText("Total da sua conta: R$ "+contaTotal);
 
     }
 

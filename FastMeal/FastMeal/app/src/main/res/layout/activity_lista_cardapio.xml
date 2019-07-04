@@ -11,10 +11,11 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_cardapio"
         android:layout_width="404dp"
-        android:layout_height="454dp"
+        android:layout_height="461dp"
         android:background="@drawable/fundor"
         android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -22,49 +23,37 @@
 
     <Button
         android:id="@+id/btnEnviarPedido"
-        android:layout_width="136dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_green_dark"
+        android:layout_width="167dp"
+        android:layout_height="52dp"
+        android:background="@drawable/circulo"
         android:text="Enviar Pedidos"
         android:textColor="@android:color/background_dark"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/Visualizar"
-        android:layout_width="136dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@android:color/holo_green_dark"
-        android:text="VISUALIZAR  CONTA"
+        android:layout_width="167dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circulo"
+        android:text="Visualizar Pedidos"
         android:textColor="@android:color/background_dark"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar2"
-        android:layout_width="402dp"
-        android:layout_height="58dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:background="@color/zxing_possible_result_points"
+        android:layout_width="426dp"
+        android:layout_height="61dp"
+        android:background="@android:color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"

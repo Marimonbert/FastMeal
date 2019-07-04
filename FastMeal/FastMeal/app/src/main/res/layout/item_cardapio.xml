@@ -15,8 +15,8 @@
     app:cardCornerRadius="16dp">
 
     <android.support.constraint.ConstraintLayout
-        android:layout_width="403dp"
-        android:layout_height="276dp"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
         android:background="#DEFFFFFF">
 
 
@@ -83,7 +83,7 @@
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/image_cardapio"
             app:layout_constraintTop_toBottomOf="@+id/txt_descricao"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.538" />
 
         <TextView
             android:id="@+id/txt_id"
@@ -137,19 +137,19 @@
 
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="74dp"
+            android:layout_width="52dp"
             android:layout_height="28dp"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="52dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:entries="@array/quantidade"
             Tools:listitem="@android:layout/simple_list_item_1"
+            app:layout_constraintBottom_toBottomOf="@+id/check_selecionar"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toEndOf="@+id/check_selecionar"
-            app:layout_constraintTop_toBottomOf="@+id/txt_valor" />
+            app:layout_constraintTop_toTopOf="@+id/check_selecionar"
+            app:layout_constraintVertical_bias="1.0" />
 
 
     </android.support.constraint.ConstraintLayout>
